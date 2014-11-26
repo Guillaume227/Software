@@ -9,7 +9,7 @@ AM_CPPFLAGS = \
 -DPACKAGE_BIN_DIR=\"$(bindir)\" \
 -DPACKAGE_LIB_DIR=\"$(libdir)\" \
 -DPACKAGE_DATA_DIR=\"$(pkgdatadir)\" \
--DLOG_ENABLE=0
+-DLOG_ENABLE=1
 
 includes_HEADERS = actuators.h
 includesdir = $(includedir)/Software
